@@ -52,13 +52,9 @@
                     </a>
 
                 </li>
-                <li class="pc-item">
-                    <a
-                        href="{{ route('journal') }}"
-                        class="pc-link"><span class="pc-micon"><i
-                                class="ti ti-chart-infographic"></i></span><span
-                            class="pc-mtext">JOURNAL</span></a>
-                </li>
+
+
+
                 <li class="pc-item">
                     <a
                         href="{{ route('rapport') }}"
@@ -93,6 +89,14 @@
                         class="pc-link"><span class="pc-micon"><i
                                 class="ti ti-chart-infographic"></i></span><span
                             class="pc-mtext">REGULATEUR</span></a>
+                </li>
+
+                <li class="pc-item">
+                    <a href="{{ route('journal') }}"
+                       
+                        class="pc-link"><span class="pc-micon"><i
+                                class="ti ti-chart-infographic"></i></span><span
+                            class="pc-mtext">JOURNAL</span></a>
                 </li>
 
             </ul>
